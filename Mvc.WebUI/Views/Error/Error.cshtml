@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Hata";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model Core.Extensions.ErrorDetails
+
+<h2>An error occurred while the server was processing your request.</h2>
+
+<div class="page-error-404">
+    <div class="error-symbol">
+        <i class="entypo-attention"></i>
+    </div>
+
+    <div class="error-text">
+        @Html.DisplayFor(d => d.Message)
+    </div>
+
+    <hr />
+
+    <div class="error-text">
+    </div>
+</div>

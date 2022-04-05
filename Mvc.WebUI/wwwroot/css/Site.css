@@ -1,0 +1,67 @@
+body {
+}
+
+.gridHeader {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    height: 30px;
+    color: #B68A33;
+}
+
+.pageTitleLinks {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #B68A33;
+}
+
+    .pageTitleLinks a {
+        color: #B68A33;
+    }
+
+        .pageTitleLinks a:hover,
+        .pageTitleLinks a:focus {
+            color: #818da2;
+        }
+
+        .pageTitleLinks a:focus {
+            outline: thin dotted #333;
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px;
+        }
+
+#gridContainer {
+    height: 600px;
+}
+
+
+.long-title h3 {
+    font-family: 'Segoe UI Light', 'Helvetica Neue Light', 'Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana;
+    font-weight: 200;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.master-detail-caption {
+    padding: 0 0 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.options {
+    padding: 20px;
+    background-color: rgba(191, 191, 191, 0.15);
+    margin-top: 20px;
+}
+
+.caption {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.option {
+    width: 24%;
+    display: inline-block;
+    margin-top: 10px;
+}

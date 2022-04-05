@@ -1,0 +1,147 @@
+﻿@model Mvc.WebUI.Model.GridControl
+
+
+<script type="text/javascript">
+    @Html.Raw(Model.AoColumnDefs)
+
+</script>
+
+<style type="text/css">
+    .gColCenter {
+        text-align: center !important;
+    }
+
+    .gColRight {
+        text-align: right !important;
+    }
+
+    .gColLeft {
+        text-align: left !important;
+    }
+</style>
+
+@if (Model.IsNEwButton)
+{
+<p>
+    <button id="btnNew" class="btn btn-default btn-icon icon-left" onclick="window.location.href = '@Url.Action(Model.NewButtonUrl.Action, Model.NewButtonUrl.Controller)'; return false; ">
+        Yeni
+        <i class="entypo-plus-circled"></i>
+    </button>
+
+</p>
+}
+
+@if (Model.IsGridHeader && Model.GridHeader != null)
+{
+    <div class="row">
+        <div class="col-md-2">
+            <div class="gridHeader">
+                @Model.GridHeader.Title
+            </div>
+        </div>
+        <div class="col-md-8">
+
+        </div>
+        <div class="col-md-2">
+            <div class="gridHeader">
+
+                @if (Model.GridHeader.Button != null)
+                {
+                    @*<button type="submit" value="Tüm Bekleyen Görevler" class="btn btn-primary pull-right" style="float: right;">Tüm Bekleyen Görevler</button>*@
+                    @*@Html.ActionLink("Tüm Bekleyen Görevler", "Waiting", "Task", new { @class = "form-control" })*@
+
+                    <button  class="btn btn-default" onclick="window.location.href='@Url.Action(Model.GridHeader.Button.Action, Model.GridHeader.Button.Control)'">
+                        @Model.GridHeader.Button.Name
+                    </button>
+                }
+
+            </div>
+        </div>
+    </div>
+}
+
+@*<div style="width:100%; margin:0 auto;">*@
+<table id='grd_@Model.Id' class="table table-bordered datatable">
+    <thead>
+        <tr class="replace-inputs">
+            @Html.Raw(Model.Filter)
+        </tr>
+        <tr>
+            @Html.Raw(Model.Header)
+        </tr>
+    </thead>
+    <tbody>
+        @Html.Raw(Model.Body)
+    </tbody>
+    <tfoot>
+        <tr>
+            @Html.Raw(Model.Footer)
+        </tr>
+    </tfoot>
+</table>
+
+<script type="text/javascript">
+    //http://legacy.datatables.net/usage/i18n language convert için gerekli
+    //http://legacy.datatables.net/ref all functionality
+        var jsLang = {
+            First: 'İlk Sayfa',
+            Last: 'Son Sayfa',
+            AllRow: 'Hepsi',
+            Next: 'Sonraki',
+            Previous: 'Önceki',
+            EmptyTable: 'Gösterilecek bir data yok',
+            SortDescending: ' - Click / ' + 'Azalan sıralamaya dönün',
+            SordAscending: ' - Click / ' + 'Artan sıralamaya dönün',
+            sInfo: 'Toplam _TOTAL_ kayıt mevcut' + ' (_START_ - _END_)',
+            sInfoEmpty: 'Gösterilecek bir data yok',
+            sInfoFiltered: ' -  _MAX_ kayıt filtrelendi',
+            sLoadingRecords: 'Lütfen bekleyin',
+            sProcessing: 'İşlem yapılıyor',
+            sZeroRecords: 'Gösterilecek bir data yok',
+            sLengthMenu: 'Sayfa başına _MENU_ kayıt göster',
+            sSearch: 'Arama',
+        };
+
+        jQuery(document).ready(function ($) {
+
+        var table = $("#grd_@Model.Id").dataTable({
+            "sPaginationType": "bootstrap",
+            "aLengthMenu": [[10, 25, 50, -1], [10, 25, 50, jsLang.AllRow]],
+            "bStateSave": true,
+
+            "aoColumnDefs": aoColumnDefs_@Model.Id,
+            "oLanguage": {
+                "oPaginate": {
+                    "sFirst": jsLang.First,
+                    "sLast": jsLang.Last,
+                },
+                "oAria": {
+                    "sSortDescending": jsLang.SortDescending,
+                    "sSortAscending": jsLang.SordAscending
+                },
+                "sLengthMenu": jsLang.sLengthMenu, //"Sayfa başına _MENU_ kayıt göster",
+                "sZeroRecords": jsLang.sZeroRecords, //"Arama kriterlerinize uygun bir sonuç bulunamadı!",
+                "sEmptyTable": jsLang.EmptyTable,
+                "sInfo": jsLang.sInfo, //"Toplam _TOTAL_ kayıt mevcut. Sayfa: _START_/_END_",
+                "sInfoEmpty": jsLang.sInfoEmty, //"Toplam 0 kayıt mevcut",
+                "sSearch": jsLang.sSearch, //"Hızlı Arama:",
+                "sInfoFiltered": jsLang.sInfoFiltered, //"(toplam _MAX_ kayıt arasından filtrelendi)"
+                "sLoadingRecords": jsLang.sLoadingRecords,
+                "sProcessing": jsLang.sProcessing
+            }
+        });
+
+        table.columnFilter({
+            "sPlaceHolder": "head:after"
+        });
+    });
+</script>
+
+<script src="~/js/jquery.dataTables.min.js"></script>
+<script src="~/js/datatables/TableTools.min.js"></script>
+<script src="~/js/dataTables.bootstrap.js"></script>
+<script src="~/js/datatables/jquery.dataTables.columnFilter.js"></script>
+<script src="~/js/datatables/lodash.min.js"></script>
+<script src="~/js/datatables/responsive/js/datatables.responsive.js"></script>
+@*</div>*@
+

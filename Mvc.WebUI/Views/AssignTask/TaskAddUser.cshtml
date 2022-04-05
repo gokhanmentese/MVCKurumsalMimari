@@ -1,0 +1,205 @@
+﻿
+@model Mvc.WebUI.ViewModel.TaskAddUserViewModel
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<script type="text/javascript" src="~/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="~/js/bootstrap-timepicker.min.js"></script>
+<link href="~/css/datepicker.css" rel="stylesheet" />
+
+<div class="panel">
+
+    <div class="row">
+        <div class="form-group row">
+            <div class="col-md-3 text-right">
+                <label>Müdürlük </label>
+            </div>
+            <div class="col-md-9">
+
+                @Html.DropDownListFor(m => m.DirectorshipId, Model.Directorships, "", new { id = "drpDirectorships", @class = "form-control" })
+
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-md-3 text-right">
+                <label>Bölüm </label>
+            </div>
+            <div class="col-md-9">
+
+                @Html.DropDownListFor(m => m.DepartmentId, Model.Departments, "", new { id = "drpDepartments", @class = "form-control col-md-10" })
+
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-md-3 text-right">
+                <label>Birim </label>
+            </div>
+            <div class="col-md-9">
+
+                @Html.DropDownListFor(m => m.UnitId, Model.Units, "", new { id = "drpUnits", @class = "form-control" })
+
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-md-3 text-right">
+                @Html.LabelFor(t => t.AssignUserId, "Görev Sorumlusu")
+            </div>
+            <div class="col-md-9">
+
+                @Html.DropDownListFor(m => m.AssignUserId, Model.AssignUsers, "", new { id = "drpAssignUsers", @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.AssignUserId, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-md-3 text-right">
+                @Html.LabelFor(t => t.StartDate, "Başlangıç Tarihi")
+            </div>
+            <div class="col-md-9">
+
+                @Html.TextBoxFor(t => t.StartDate, "{0:dd.MM.yyyy}", new { @class = "form-control datepicker", placeholder = "dd.mm.yyyy" })
+                @Html.ValidationMessageFor(m => m.StartDate, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-md-3 text-right">
+                @Html.LabelFor(t => t.EndDate, "Bitiş Tarihi")
+            </div>
+            <div class="col-md-9">
+
+                @Html.TextBoxFor(t => t.EndDate, "{0:dd.MM.yyyy}", new { @class = "form-control datepicker", placeholder = "dd.mm.yyyy" })
+                @Html.ValidationMessageFor(m => m.EndDate, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $(".datepicker").datepicker({
+            format: 'dd.mm.yyyy'
+        });
+
+        $("#drpAssignUsers").chosen({ width: '95%' });
+
+        $("#drpDirectorships").chosen({ width: '95%' });
+        $("#drpDepartments").chosen({ width: '95%' });
+        $("#drpUnits").chosen({ width: '95%' });
+
+        var drpDepartments = $('#drpDepartments');
+        var drpUnits = $('#drpUnits');
+        var drpAssignUsers = $('#drpAssignUsers');
+
+        $('#drpDirectorships').change(function (event, ui) {
+            var directorship_id = this.value;
+            drpDepartments.prop("disabled", false);
+            $('#drpDepartments').empty();
+            drpDepartments.append($('<option></option>').val("-1").html(''));
+
+            loadDepartments(directorship_id); // This is append values to option
+
+            drpUnits.prop("disabled", false);
+            $('#drpUnits').empty();
+            drpUnits.trigger("chosen:updated");
+
+            drpAssignUsers.prop("disabled", false);
+            $('#drpAssignUsers').empty();
+            drpAssignUsers.trigger("chosen:updated");
+
+        });
+
+        $('#drpDepartments').change(function (event, ui) {
+            var department_id = this.value;
+            drpUnits.prop("disabled", false);
+            $('#drpUnits').empty();
+
+            drpAssignUsers.prop("disabled", false);
+            $('#drpAssignUsers').empty();
+            drpAssignUsers.trigger("chosen:updated");
+
+            drpUnits.append($('<option></option>').val("-1").html(''));
+
+            loadUnits(department_id); // This is append values to option
+        });
+
+        $('#drpUnits').change(function (event, ui) {
+            var unit_id = this.value;
+            drpAssignUsers.prop("disabled", false);
+            $('#drpAssignUsers').empty();
+            drpAssignUsers.append($('<option></option>').val("-1").html(''));
+
+            loadUsers(unit_id); // This is append values to option
+        });
+
+        function loadDepartments(directorship_id) {
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "@Url.Action("GetDepartments", "Departman")",
+                data: { "id": directorship_id },
+                success: function (data) {
+                    if (data != null && data.length != 0) {
+                        $.each(data, function (i, option) {
+                            drpDepartments.append($("<option>").val(option.value).text(option.text));
+                            //drpDepartments.append($('<option></option>').val(option.value).html(option.text));
+                        });
+                    }
+
+                    drpDepartments.trigger("chosen:updated");
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert('Failed to retrieve states.');
+                }
+            });
+        }
+
+        function loadUnits(department_id) {
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "@Url.Action("GetUnits", "Unit")",
+                data: { "id": department_id },
+                success: function (data) {
+                    $.each(data, function (i, option) {
+                        drpUnits.append($("<option>").val(option.value).text(option.text));
+                    });
+                    drpUnits.trigger("chosen:updated");
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert('Failed to retrieve states.');
+                }
+            });
+        }
+
+        function loadUsers(unit_id) {
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url: "@Url.Action("GetUsers", "User")",
+                data: { "id": unit_id },
+                success: function (data) {
+                    $.each(data, function (i, option) {
+                        drpAssignUsers.append($("<option>").val(option.value).text(option.text));
+                    });
+                    drpAssignUsers.trigger("chosen:updated");
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert('Failed to retrieve states.');
+                }
+            });
+        }
+
+    });
+</script>
+

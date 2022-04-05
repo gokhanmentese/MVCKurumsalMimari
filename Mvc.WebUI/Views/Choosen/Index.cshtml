@@ -1,0 +1,31 @@
+﻿@model Mvc.WebUI.ViewModel.TaskViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<div class="form-horizontal">
+    @Html.HiddenFor(model => model.Task.Id)
+
+    <div class="form-group">
+        <label>Select Users</label>
+
+        @Html.DropDownListFor(m => m.Task.AssignUserId, Model.AssignUsers, "", new { id = "drpAssignUsers", @class = "form-control" })
+    </div>
+</div>
+
+@section scripts{
+    <script>
+        $(function () {
+            $("#drpAssignUsers").chosen({
+                //disable_search:true
+                //disable_search_threshold: 5,
+                //no_results_text: "Oops, nothing found!",
+                allow_single_deselect: true
+            });
+        });
+    </script>
+}

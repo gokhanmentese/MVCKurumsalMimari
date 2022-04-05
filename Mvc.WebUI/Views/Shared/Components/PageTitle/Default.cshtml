@@ -1,0 +1,40 @@
+﻿@model Mvc.WebUI.Model.PageTitleOptions
+
+<style>
+    hr {
+        margin-top: 7px;
+        margin-bottom: 7px;
+        border: 0;
+        border-top: 1px solid #eeeeee;
+    }
+</style>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-sm-8">
+                <div class="pageTitleLinks">
+                    @if (Model.Link1 != null)
+                    {
+                        @Html.RouteLink(Model.Link1.DisplayName, new { controller = Model.Link1.Controller, action = Model.Link1.Action })
+                    }
+
+                    @if (Model.Link2 != null)
+                    {
+                        @Html.Raw(" / ")
+                        @Html.RouteLink(Model.Link2.DisplayName, new { controller = Model.Link2.Controller, action = Model.Link2.Action })
+                    }
+
+                    @if (Model.Link3 != null)
+                    {
+                        @Html.Raw(" / ")
+                        @Html.RouteLink(Model.Link3.DisplayName, new { controller = Model.Link3.Controller, action = Model.Link3.Action })
+                    }
+                </div>
+            </div>
+            @*<div class="col-sm-4 text-right">
+                    &nbsp;
+                </div>*@
+        </div>
+
+    </div>
+    <hr />

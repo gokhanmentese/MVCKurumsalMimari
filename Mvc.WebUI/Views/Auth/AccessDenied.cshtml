@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Access Denied";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model Mvc.WebUI.ViewModel.ErrorViewModel
+
+    <h1>Access Denied</h1>
+
+    <div class="page-container horizontal-menu sidebar-collapsed">
+        <header class="navbar">
+            <!-- navbar-fixed-top-->
+            <div class="navbar-inner container">
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main-content">
+            <div class="page-error-404">
+                <div class="error-symbol">
+                    <i class="entypo-attention"></i>
+                </div>
+
+                <div class="error-text">
+                    @Html.DisplayFor(d=>d.Error)
+                </div>
+
+                <hr />
+
+                <div class="error-text">
+                </div>
+            </div>
+        </div>
+    </div>

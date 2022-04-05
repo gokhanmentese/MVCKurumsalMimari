@@ -1,0 +1,22 @@
+@model Mvc.WebUI.ViewModel.HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<h2>
+    <i class="fa fa-home"> </i>
+    <small>Ana Sayfa</small>
+</h2>
+
+<br />
+
+
+@await Component.InvokeAsync("Grid", Model.WaitingTasks)
+
+<br />
+
+@await Component.InvokeAsync("Grid", Model.ClosedTasks)
+
+
+<hr />

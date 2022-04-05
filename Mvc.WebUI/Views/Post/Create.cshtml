@@ -1,0 +1,92 @@
+﻿
+@model Mvc.WebUI.ViewModel.PostCreateViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript" src="~/js/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="~/js/ckeditor/config.js"></script>
+<script type="text/javascript" src="~/js/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript" src="~/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="~/js/bootstrap-timepicker.min.js"></script>
+
+<link href="~/css/datepicker.css" rel="stylesheet" />
+<link href="~/js/ckeditor/skins/moono/editor.css" rel="stylesheet" />
+<script src="~/js/ckeditor/styles.js"></script>
+<script src="~/js/ckeditor/lang/tr.js"></script>
+<script src="~/js/ckeditor/build-config.js"></script>
+
+@await Component.InvokeAsync("PageTitle", Model.PageTitleOptions)
+
+
+@using (Html.BeginForm("Send", "Post", FormMethod.Post, new { @class = "form-horizontal", enctype = "multipart/form-data" }))
+{
+    <div id="contactForm">
+        <div class="form-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">To</label>
+                        <div class="col-md-9">
+                            @Html.TextBoxFor(t => t.To, new { @class = "form-control", placeholder = "Alıcı" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Cc</label>
+                        <div class="col-md-9">
+                            @Html.TextBoxFor(t => t.Cc, new { @class = "form-control", placeholder = "Alıcı" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Bcc</label>
+                        <div class="col-md-9">
+                            @Html.TextBoxFor(t => t.Bcc, new { @class = "form-control", placeholder = "Alıcı" })
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Konu</label>
+                        <div class="col-md-9">
+                            @Html.TextBoxFor(t => t.Subject, new { @class = "form-control", placeholder = "Konu" })
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Mesajınız</label>
+                        <div class="col-md-9" style="padding-top: 7px;">
+                            @Html.TextAreaFor(m => m.Body, new { @class = "form-control ckeditor", placeholder = "Görev" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/row-->
+        </div>
+        <div class="form-actions">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-offset-10 col-md-9">
+                        <button type="submit" class="btn">Gönder</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

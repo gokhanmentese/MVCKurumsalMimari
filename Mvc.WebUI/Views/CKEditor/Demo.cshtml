@@ -1,0 +1,43 @@
+﻿@model Mvc.WebUI.Model.CKEditor
+
+@{
+    ViewData["Title"] = "Demo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript" src="~/js/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="~/js/ckeditor/config.js"></script>
+<script type="text/javascript" src="~/js/ckeditor/adapters/jquery.js"></script>
+
+<link href="~/js/ckeditor/skins/moono/editor.css" rel="stylesheet" />
+<script src="~/js/ckeditor/styles.js"></script>
+<script src="~/js ckeditor/lang/tr.js"></script>
+
+<script src="~/js/ckeditor/build-config.js"></script>
+
+<h1>Demo</h1>
+
+@using (Html.BeginForm("Create", "CKEditor", FormMethod.Post))
+{
+
+    @Html.AntiForgeryToken()
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group no-margin">
+
+
+                @Html.LabelFor(t => t.Label, "Mesaj Metni")
+
+                @Html.TextAreaFor(m => m.Text, new { @class = "form-control ckeditor" })
+
+            </div>
+        </div>
+    </div>
+
+    <button id="btnNew" class="btn btn-default btn-icon icon-left" onclick="window.location.href='@Url.Action("Create", "CKEditor")'">
+        Kaydet
+        <i class="entypo-plus-circled"></i>
+    </button>
+
+}

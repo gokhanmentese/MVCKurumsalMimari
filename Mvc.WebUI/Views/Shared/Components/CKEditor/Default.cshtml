@@ -1,0 +1,19 @@
+﻿
+@model Mvc.WebUI.ViewModel.CKEditorViewModel
+
+<script type="text/javascript" src="~/js/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="~/js/ckeditor/config.js"></script>
+<script type="text/javascript" src="~/js/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript" src="~/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="~/js/bootstrap-timepicker.min.js"></script>
+
+<link href="~/css/datepicker.css" rel="stylesheet" />
+<link href="~/js/ckeditor/skins/moono/editor.css" rel="stylesheet" />
+<script src="~/js/ckeditor/styles.js"></script>
+<script src="~/js/ckeditor/lang/tr.js"></script>
+
+<script src="~/js/ckeditor/build-config.js"></script>
+
+
+
+@Html.TextAreaFor(m => m.Body, new { @class = "form-control ckeditor", placeholder = "Görev" })

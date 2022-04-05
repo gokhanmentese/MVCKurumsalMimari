@@ -1,0 +1,115 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model Mvc.WebUI.ViewModel.TaskFileViewModel
+
+@*@using (Html.BeginForm("Update", "Task", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{*@
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="panel panel-primary" data-collapsed="0">
+
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        Dosya Ekleme
+                    </div>
+                </div>
+
+                <div class="panel-body">
+                    <div class="form-horizontal">
+                        <div class="form-group row">
+                           
+                            <label asp-for="FormFile" class="col-sm-1 col-form-label"></label>
+
+                            <div class="col-sm-4">
+                                <input type="file" name="taskfile" id="taskfile" class="form-control custom-file-input"/>
+                                @*<label class="custom-file-label">Dosya Seç...</label>*@
+                            </div>
+                            <div class="col-sm-1">
+                                @*<button type="button" id="btnUpload" class="btn btn-default" >Yükle</button>*@
+                                <input type="submit" name="loadfile" class="btn btn-file" value="Yükle"
+                                       formaction="@Url.Action("LoadFile","Task")" formmethod="post" />
+                            </div>
+                        </div>
+
+                        @{ if (Model.TaskFiles != null && Model.TaskFiles.Count !=0)
+                            {
+                                <div class="form-group">
+                                    <div class="col-sm-6">
+
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr class="row">
+                                                    <th class="col-sm-2" scope="col">#</th>
+                                                    <th class="col-sm-8" scope="col">Dosya Adı</th>
+                                                    <th class="col-sm-2" scope="col"></th>
+
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+
+                                                @foreach (var item in Model.TaskFiles)
+                                                {
+                                                    <tr class="row">
+                                                        <th class="col-sm-2" scope="row">@(Model.TaskFiles.IndexOf(item) + 1)</th>
+                                                        <td class="col-sm-8">@item.FileName</td>
+                                                        <td class="col-sm-2">
+                                                            <button type="button" class="btn btn-danger" onclick="location.href='@Url.Action("Delete", "TaskFile",new { id=item.Id})'">
+                                                                <i class="entypo-cancel"></i>
+                                                            </button>
+                                                        </td>
+
+                                                    </tr>
+                                                }
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                    @*</form>*@
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+@*}*@
+
+@section scripts{
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('.custom-file-input').on("change", function () {
+                var fileName = $(this).val().split("\\").pop();
+                $(this).next('.custom-file-label').html(fileName);
+            });
+        });
+
+        $("#btnUpload2").click(function () {
+            alert("Upload");
+            $.ajax({
+                async: false,
+                url: '@Url.Action("LoadTaskFileView","Task")',
+                data: '{model:' + JSON.stringify(check) + '}',
+                type: 'post',
+                dataType: 'json',
+                contentType: 'application/json; charset=utf-8',
+                success: function (objOperations) {
+
+                    $("#dvTaskFiles").html(objOperations);
+
+                }
+            });
+        });
+    </script>
+
+}

@@ -1,0 +1,14 @@
+﻿
+@model Mvc.WebUI.ViewModel.UsersViewModel
+
+@{
+    ViewData["Title"] = "Kullanıcılar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@await Component.InvokeAsync("PageTitle", Model.PageTitleOptions)
+
+
+@await Component.InvokeAsync("Grid", Model.Users)
+
+

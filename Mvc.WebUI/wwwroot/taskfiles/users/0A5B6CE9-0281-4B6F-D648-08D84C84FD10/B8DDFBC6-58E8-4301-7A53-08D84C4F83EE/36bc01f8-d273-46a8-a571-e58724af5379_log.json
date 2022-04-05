@@ -1,0 +1,6139 @@
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.",
+    "MethodName": "Delete",
+    "LogParameters": [
+      {
+        "Name": "taskFile",
+        "Value": {
+          "Id": "4678cc55-e3a8-4eec-a720-6980e8de8f28",
+          "TaskId": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+          "FileId": "ba1d6491-dc7b-4d2a-4e5f-08d84bc0e15e",
+          "FileName": "4678cc55-e3a8-4eec-a720-6980e8de8f28_dbo.Departments.data.sql",
+          "UserId": "e2462794-9922-4bc2-2504-08d84b8d0c0e",
+          "OwnerShip": 0,
+          "CreatedOn": "2020-08-29T05:11:46.02"
+        },
+        "Type": "TaskFile"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.",
+    "MethodName": "Delete",
+    "LogParameters": [
+      {
+        "Name": "taskFile",
+        "Value": {
+          "Id": "4678cc55-e3a8-4eec-a720-6980e8de8f28",
+          "TaskId": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+          "FileId": "ba1d6491-dc7b-4d2a-4e5f-08d84bc0e15e",
+          "FileName": "4678cc55-e3a8-4eec-a720-6980e8de8f28_dbo.Departments.data.sql",
+          "UserId": "e2462794-9922-4bc2-2504-08d84b8d0c0e",
+          "OwnerShip": 0,
+          "CreatedOn": "2020-08-29T05:11:46.02"
+        },
+        "Type": "TaskFile"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.",
+    "MethodName": "Delete",
+    "LogParameters": [
+      {
+        "Name": "taskFile",
+        "Value": {
+          "Id": "4678cc55-e3a8-4eec-a720-6980e8de8f28",
+          "TaskId": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+          "FileId": "ba1d6491-dc7b-4d2a-4e5f-08d84bc0e15e",
+          "FileName": "4678cc55-e3a8-4eec-a720-6980e8de8f28_dbo.Departments.data.sql",
+          "UserId": "e2462794-9922-4bc2-2504-08d84b8d0c0e",
+          "OwnerShip": 0,
+          "CreatedOn": "2020-08-29T05:11:46.02"
+        },
+        "Type": "TaskFile"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Add",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "6d18cebd-0407-46c9-90c5-08d84ba0d8a8",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Delete",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Add",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "00000000-0000-0000-0000-000000000000",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "00000000-0000-0000-0000-000000000000",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Validation failed: \r\n -- AssignedUserId: 'Assigned User Id' must not be equal to '00000000-0000-0000-0000-000000000000'.",
+    "MethodName": "Assign",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "TaskId": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+          "AssignUserId": "e2462794-9922-4bc2-2504-08d84b8d0c0e",
+          "AssignedUserId": "00000000-0000-0000-0000-000000000000",
+          "AssignDate": "2020-08-30T03:40:54.0903295+03:00",
+          "Description": "<p>Sana atanan g&ouml;revi zamanýnda tamamlamalýsýn.</p>\r\n"
+        },
+        "Type": "AssignTask"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Validation failed: \r\n -- AssignedUserId: 'Assigned User Id' must not be equal to '00000000-0000-0000-0000-000000000000'.",
+    "MethodName": "Assign",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "TaskId": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+          "AssignUserId": "e2462794-9922-4bc2-2504-08d84b8d0c0e",
+          "AssignedUserId": "00000000-0000-0000-0000-000000000000",
+          "AssignDate": "2020-08-30T03:46:02.2722094+03:00",
+          "Description": "<p>Sana atanan g&ouml;revi zamanýnda tamamlamalýsýn.</p>\r\n"
+        },
+        "Type": "AssignTask"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Validation failed: \r\n -- AssignedUserId: 'Assigned User Id' must not be equal to '00000000-0000-0000-0000-000000000000'.",
+    "MethodName": "Assign",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "TaskId": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+          "AssignUserId": "e2462794-9922-4bc2-2504-08d84b8d0c0e",
+          "AssignedUserId": "00000000-0000-0000-0000-000000000000",
+          "AssignDate": "2020-08-30T03:48:11.8272463+03:00",
+          "Description": "<p>Sana atanan g&ouml;revi zamanýnda tamamlamalýsýn.</p>\r\n"
+        },
+        "Type": "AssignTask"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Validation failed: \r\n -- AssignedUserId: Lütfen atanacak kullanýcý alanýný boþ geçmeyiniz.",
+    "MethodName": "Assign",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "TaskId": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+          "AssignUserId": "e2462794-9922-4bc2-2504-08d84b8d0c0e",
+          "AssignedUserId": "00000000-0000-0000-0000-000000000000",
+          "AssignDate": "2020-08-30T04:39:15.506959+03:00",
+          "Description": "<p>Sana atanan g&ouml;revi zamanýnda tamamlamalýsýn.</p>\r\n"
+        },
+        "Type": "AssignTask"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "00000000-0000-0000-0000-000000000000",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {
+          "StateCode": 0,
+          "StatusCode": 1
+        },
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Both relationships between 'TaskFile' and 'Task.TaskFiles' and between 'TaskFile' and 'Task.UserTaskFiles' could use {'TaskId'} as the foreign key. To resolve this configure the foreign key properties explicitly on at least one of the relationships.",
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Both relationships between 'TaskFile' and 'Task.TaskFiles' and between 'TaskFile' and 'Task.UserTaskFiles' could use {'TaskId'} as the foreign key. To resolve this configure the foreign key properties explicitly on at least one of the relationships.",
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Both relationships between 'TaskFile' and 'Task.TaskFiles' and between 'TaskFile' and 'Task.UserTaskFiles' could use {'TaskId'} as the foreign key. To resolve this configure the foreign key properties explicitly on at least one of the relationships.",
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Both relationships between 'TaskFile' and 'Task.TaskFiles' and between 'TaskFile' and 'Task.UserTaskFiles' could use {'TaskId'} as the foreign key. To resolve this configure the foreign key properties explicitly on at least one of the relationships.",
+    "MethodName": "GetByIdentityNumber",
+    "LogParameters": [
+      {
+        "Name": "identityNumber",
+        "Value": "40141338150",
+        "Type": "String"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Both relationships between 'TaskFile' and 'Task.TaskFiles' and between 'TaskFile' and 'Task.UserTaskFiles' could use {'TaskId'} as the foreign key. To resolve this configure the foreign key properties explicitly on at least one of the relationships.",
+    "MethodName": "Login",
+    "LogParameters": [
+      {
+        "Name": "userForLoginDto",
+        "Value": {
+          "IdentityNumber": "40141338150",
+          "Password": "FL2L42"
+        },
+        "Type": "UserForLoginDto"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Invalid column name 'UserDescription'.",
+    "MethodName": "GetWaitingTasks",
+    "LogParameters": []
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Invalid column name 'UserDescription'.",
+    "MethodName": "GetWaitingTasks",
+    "LogParameters": []
+  }
+}
+{
+  "Message": {
+    "ExceptionMessage": "Invalid column name 'UserDescription'.",
+    "MethodName": "GetWaitingTasks",
+    "LogParameters": []
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Add",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {},
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {},
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {},
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "00000000-0000-0000-0000-000000000000",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "00000000-0000-0000-0000-000000000000",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "1a39cce5-3b09-4b26-7384-08d84c4cb7f9",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "Update",
+    "LogParameters": [
+      {
+        "Name": "task",
+        "Value": {},
+        "Type": "Task"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "299893f9-81de-4b33-c39e-08d84cdb385e",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}
+{
+  "Message": {
+    "MethodName": "GetById",
+    "LogParameters": [
+      {
+        "Name": "id",
+        "Value": "b8ddfbc6-58e8-4301-7a53-08d84c4f83ee",
+        "Type": "Guid"
+      }
+    ]
+  }
+}

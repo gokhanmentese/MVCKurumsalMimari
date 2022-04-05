@@ -1,0 +1,205 @@
+﻿@model Mvc.WebUI.ViewModel.UserProfileViewModel
+
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@await Component.InvokeAsync("PageTitle", Model.PageTitleOptions)
+
+<hr />
+
+<div class="panel-group">
+    @using (Html.BeginForm("Update", "User", FormMethod.Post))
+    {
+        @Html.HiddenFor(t => t.UserProfile.UserId)
+
+        <div class="row">
+            <div class="col-md-2">
+                @Html.LabelFor(t => t.UserProfile.FirstName, "Ad")
+            </div>
+            <div class="col-md-4">
+                @Html.TextBoxFor(t => t.UserProfile.FirstName, new { @class = "form-control datepicker", placeholder = "Kullanıcı Adı" })
+            </div>
+            <div class="col-md-2">
+                @Html.LabelFor(t => t.UserProfile.LastName, "Soyad")
+            </div>
+            <div class="col-md-4">
+                @Html.TextBoxFor(t => t.UserProfile.LastName, new { @class = "form-control datepicker", placeholder = "Kullanıcı Soyadı" })
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <div class="col-md-2">
+                @Html.LabelFor(t => t.UserProfile.IdentityNumber, "TC Kimlik No")
+            </div>
+            <div class="col-md-4">
+                @Html.TextBoxFor(t => t.UserProfile.IdentityNumber, new { @class = "form-control datepicker", placeholder = "TC Kimlik Numarası", disabled = "disabled" })
+            </div>
+            <div class="col-md-2">
+                @Html.LabelFor(t => t.UserProfile.Email, "Email")
+            </div>
+            <div class="col-md-4">
+                @Html.TextBoxFor(t => t.UserProfile.Email, new { @class = "form-control datepicker", placeholder = "Email" })
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <div class="col-md-2">
+                @Html.LabelFor(t => t.UserProfile.PhoneNumber, "Telefon")
+            </div>
+            <div class="col-md-4">
+                @Html.TextBoxFor(t => t.UserProfile.PhoneNumber, new { @class = "form-control datepicker", placeholder = "Telefon" })
+            </div>
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-4">
+
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-horizontal">
+
+                    <label>Müdürlük </label>
+
+                    @Html.DropDownListFor(m => m.DirectorshipId, Model.Directorships, "", new { id = "drpDirectorships", @class = "form-control" })
+                </div>
+
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-3">
+                <div class="form-horizontal">
+
+                    <label>Bölüm </label>
+
+                    @Html.DropDownListFor(m => m.DepartmentId, Model.Departments, "", new { id = "drpDepartments", @class = "form-control" })
+
+                </div>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-3">
+                <div class="form-horizontal">
+
+                    <label>Birim </label>
+
+                    @Html.DropDownListFor(m => m.UnitId, Model.Units, "", new { id = "drpUnits", @class = "form-control" })
+
+                </div>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+        </div>
+        <br />
+
+        <div class="panel panel-default">
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-md-10">
+
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" value="Güncelle" class="btn btn-primary pull-right" style="float: right;">Güncelle</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#drpDirectorships").chosen();
+            $("#drpDepartments").chosen();
+            $("#drpUnits").chosen();
+
+            var drpDepartments = $('#drpDepartments');
+            var drpUnits = $('#drpUnits');
+            var drpAssignUsers = $('#drpAssignUsers');
+
+            $('#drpDirectorships').change(function (event, ui) {
+                var directorship_id = this.value;
+                drpDepartments.prop("disabled", false);
+                $('#drpDepartments').empty();
+                drpDepartments.append($('<option></option>').val("-1").html(''));
+
+                loadDepartments(directorship_id); // This is append values to option
+
+                drpUnits.prop("disabled", false);
+                $('#drpUnits').empty();
+                drpUnits.trigger("chosen:updated");
+
+            });
+
+            $('#drpDepartments').change(function (event, ui) {
+                var department_id = this.value;
+                drpUnits.prop("disabled", false);
+                $('#drpUnits').empty();
+
+                drpUnits.append($('<option></option>').val("-1").html(''));
+
+                loadUnits(department_id); // This is append values to option
+            });
+
+            $('#drpUnits').change(function (event, ui) {
+                var unit_id = this.value;
+
+            });
+
+            function loadDepartments(directorship_id) {
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    url: "@Url.Action("GetDepartments", "Departman")",
+                    data: { "id": directorship_id },
+                    success: function (data) {
+                        if (data != null && data.length !=0) {
+                            $.each(data, function (i, option) {
+                                drpDepartments.append($("<option>").val(option.value).text(option.text));
+                                //drpDepartments.append($('<option></option>').val(option.value).html(option.text));
+                            });
+                        }
+
+                        drpDepartments.trigger("chosen:updated");
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve states.');
+                    }
+             });
+            }
+
+            function loadUnits(department_id) {
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    url: "@Url.Action("GetUnits", "Unit")",
+                    data: { "id": department_id },
+                    success: function (data) {
+                        $.each(data, function (i, option) {
+                            drpUnits.append($("<option>").val(option.value).text(option.text));
+                        });
+                        drpUnits.trigger("chosen:updated");
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve states.');
+                    }
+             });
+            }
+        });
+    </script>
+}

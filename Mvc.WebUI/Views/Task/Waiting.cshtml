@@ -1,0 +1,14 @@
+﻿
+@model Mvc.WebUI.ViewModel.TaskWaitingViewModel
+
+@{
+    ViewData["Title"] = "Bekleyen Görevler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@await Component.InvokeAsync("PageTitle", Model.PageTitleOptions)
+
+@await Component.InvokeAsync("Grid", Model.WaitingTasks)
+

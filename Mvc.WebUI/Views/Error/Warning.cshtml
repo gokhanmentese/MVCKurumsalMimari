@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Warning";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Warning</h1>
+
+<div class="page-error-404">
+    <div class="error-symbol">
+        <i id="icontype" runat="server"></i>
+    </div>
+
+    <div class="error-text">
+        @Html.Display("Warning")
+    </div>
+
+    <hr />
+
+    <div class="error-text">
+    </div>
+</div>
+

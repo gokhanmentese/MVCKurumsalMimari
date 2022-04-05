@@ -1,0 +1,18 @@
+﻿
+@model Mvc.WebUI.ViewModel.TaskIndexViewModel
+
+@{
+    ViewData["Title"] = "Görevler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@await Component.InvokeAsync("PageTitle", Model.PageTitleOptions)
+
+
+@await Component.InvokeAsync("Grid", Model.WaitingTasks)
+
+<br />
+
+@await Component.InvokeAsync("Grid", Model.ClosedTasks)
+
+<br />

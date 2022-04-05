@@ -1,0 +1,1051 @@
+﻿
+@model Mvc.WebUI.ViewModel.TaskViewModel
+
+@using Core.Enums
+
+@{
+    ViewData["Title"] = "Görev Detay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript" src="~/js/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="~/js/ckeditor/config.js"></script>
+<script type="text/javascript" src="~/js/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript" src="~/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="~/js/bootstrap-timepicker.min.js"></script>
+
+<link href="~/css/datepicker.css" rel="stylesheet" />
+<link href="~/js/ckeditor/skins/moono/editor.css" rel="stylesheet" />
+<script src="~/js/ckeditor/styles.js"></script>
+<script src="~/js/ckeditor/lang/tr.js"></script>
+<script src="~/js/ckeditor/build-config.js"></script>
+<script src="~/js/jquery/jquery.form.js"></script>
+
+
+<style type="text/css">
+    .btn-space {
+        margin-right: 5px;
+    }
+
+    .modal-backdrop {
+        /* bug fix - no overlay */
+        /* display: none;*/
+    }
+
+    .gColCenter {
+        text-align: center !important;
+    }
+
+    .gColRight {
+        text-align: right !important;
+    }
+
+    .gColLeft {
+        text-align: left !important;
+    }
+</style>
+
+<script>
+    var isOwner = false;
+    var isActive = false;
+
+    if ('@Model.IsOwner'== "True" || '@Model.IsOwner'== "true") {
+        isOwner = true;
+    }
+
+    if (parseInt('@Model.Task.StateCode') == 0) {
+        isActive = true;
+    }
+
+    $(document).ready(function () {
+        $(".datepicker").datepicker({
+            format: 'dd.mm.yyyy'
+        });
+    });
+</script>
+
+@await Component.InvokeAsync("PageTitle", Model.PageTitleOptions)
+
+<div class="panel-group">
+
+    @using (Html.BeginForm(FormMethod.Post, new { enctype = "multipart/form-data", @id = "dosya_gonder_form", onsubmit = "return form_onsubmit(this, this.submitted); " }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="panel-group hide">
+            <div class="panel panel-default">
+                <div class="panel-body">
+
+                    <div class="form-group row">
+                        <div class="col-md-2">
+                            @Html.LabelFor(t => t.Task.Subject, "Görev Konusu")
+                            @Html.HiddenFor(t => t.Task.Id)
+                        </div>
+                        <div class="col-md-10">
+                            @if (Model.IsOwner == true && Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                            {
+                                @Html.TextBoxFor(t => t.Task.Subject, new { @class = "form-control", placeholder = "Görev Konusu" })
+                            }
+                            else
+                            {
+                                @Html.TextBoxFor(t => t.Task.Subject, new { @class = "form-control", placeholder = "Görev Konusu", @disabled = "disabled" })
+                            }
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-2">
+                            @Html.LabelFor(t => t.Task.Description, "Görev İçeriği")
+                        </div>
+                        <div class="col-md-10">
+                            @if (Model.IsOwner == true && Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                            {
+                                @Html.TextAreaFor(m => m.Task.Description, new { @class = "form-control ckeditor", placeholder = "Görev" })
+                            }
+                            else
+                            {
+                                @Html.TextAreaFor(m => m.Task.Description, new { @class = "form-control ckeditor", placeholder = "Görev", @disabled = "disabled" })
+                            }
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-2">
+                            @Html.LabelFor(t => t.Task.StartDate, "Başlangıç Tarihi")
+                        </div>
+                        <div class="col-md-4">
+                            @if (Model.IsOwner == true && Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                            {
+                                @Html.TextBoxFor(t => t.Task.StartDate, "{0:dd.MM.yyyy}", new { @class = "form-control datepicker", placeholder = "dd.mm.yyyy" })
+                            }
+                            else
+                            {
+                                @Html.TextBoxFor(t => t.Task.StartDate, "{0:dd.MM.yyyy}", new { @class = "form-control datepicker", placeholder = "dd.mm.yyyy", @disabled = "disabled" })
+                            }
+                        </div>
+                        <div class="col-md-2">
+                            @Html.LabelFor(t => t.Task.EndDate, "Bitiş Tarihi")
+                        </div>
+                        <div class="col-md-4">
+                            @if (Model.IsOwner == true && Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                            {
+                                @Html.TextBoxFor(t => t.Task.EndDate, "{0:dd.MM.yyyy}", new { @class = "form-control datepicker", placeholder = "dd.mm.yyyy" })
+                            }
+                            else
+                            {
+                                @Html.TextBoxFor(t => t.Task.EndDate, "{0:dd.MM.yyyy}", new { @class = "form-control datepicker", placeholder = "dd.mm.yyyy", @disabled = "disabled" })
+                            }
+                        </div>
+                    </div>
+
+                    @if (Model.IsOwner == true)
+                    {
+                        @if (Model.IsOwner == true && Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                        {
+                            <p>
+                                <button type="button" id="btnNew" class="btn btn-default btn-icon icon-left" data-toggle="modal" data-target="#addUserModal">
+                                    Yeni
+                                    <i class="entypo-plus-circled"></i>
+                                </button>
+                            </p>
+                        }
+
+                        @*<button id='refresh' value="Refresh" onclick="this.form.submitted=this.value;"> Refresh </button>*@
+
+                        @*<partial name="TaskAddUser" />*@
+
+                        @*@await Component.InvokeAsync("Grid", Model.TaskUsers)*@
+
+                        <div id="taskusers" class="row">
+
+                        </div>
+
+                        if (Model.IsOwner != true)
+                        {
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label>Müdürlük </label>
+                                </div>
+                                <div class="col-md-10">
+                                    @if (Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                                    {
+                                        @Html.DropDownListFor(m => m.DirectorshipId, Model.Directorships, "", new { id = "drpDirectorships", @class = "form-control" })
+                                    }
+                                    else
+                                    {
+                                        @Html.DropDownListFor(m => m.DirectorshipId, Model.Directorships, "", new { id = "drpDirectorships", @class = "form-control", @disabled = "disabled" })
+                                    }
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label>Bölüm </label>
+                                </div>
+                                <div class="col-md-10">
+                                    @if (Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                                    {
+                                        @Html.DropDownListFor(m => m.DepartmentId, Model.Departments, "", new { id = "drpDepartments", @class = "form-control" })
+                                    }
+                                    else
+                                    {
+                                        @Html.DropDownListFor(m => m.DepartmentId, Model.Departments, "", new { id = "drpDepartments", @class = "form-control", @disabled = "disabled" })
+                                    }
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    <label>Birim </label>
+                                </div>
+                                <div class="col-md-10">
+                                    @if (Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                                    {
+                                        @Html.DropDownListFor(m => m.UnitId, Model.Units, "", new { id = "drpUnits", @class = "form-control" })
+                                    }
+                                    else
+                                    {
+                                        @Html.DropDownListFor(m => m.UnitId, Model.Units, "", new { id = "drpUnits", @class = "form-control", @disabled = "disabled" })
+                                    }
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-md-2">
+                                    @Html.LabelFor(t => t.Task.AssignUserId, "Görev Sorumlusu")
+                                </div>
+                                <div class="col-md-10">
+                                    @if (Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                                    {
+                                        @Html.DropDownListFor(m => m.Task.AssignUserId, Model.AssignUsers, "", new { id = "drpAssignUsers", @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.Task.AssignUserId, "", new { @class = "text-danger" })
+
+                                        @*@Html.DropDownListFor(m => m.SelectedUserId, Model.AssignUsers, "Kullanıcı Seçiniz", new { @class = "form-control" })*@
+
+                                        @*@Html.DropDownList("AssignUsers", null, "Kullanıcı Seçiniz", new { @class = "form-control" })*@
+                                    }
+                                    else
+                                    {
+                                        @Html.DropDownListFor(m => m.Task.AssignUserId, Model.AssignUsers, "", new { id = "drpAssignUsers", @class = "form-control", @disabled = "disabled" })
+                                    }
+                                </div>
+                            </div>
+                        }
+                    }
+                    <hr />
+
+                    <div class="form-group row">
+                        <div class="col-md-2 bold">
+                            @if (Model.IsOwner == true)
+                            {
+                                @Html.Label("Dosya Ekleme")
+                            }
+                            else
+                            {
+                                @Html.Label("Göreve ekli dosyalar")
+                            }
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        @if (Model.IsOwner == true)
+                        {
+                            @Html.Label("TaskFiles", "Dosya Seç", new { @class = "col-sm-1 col-form-label" })
+                        }
+
+                        <div class="col-sm-4">
+                            <div class="custom-file">
+                                @if (Model.IsOwner == true && Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                                {
+                                    <input asp-for="TaskFiles" class="form-control custom-file-input" />
+                                    @*@Html.ValidationMessageFor(model => model.TaskFiles, "", new { @class = "text-danger" })*@
+
+                                    <span asp-validation-for="TaskFiles" class="text-danger"></span>
+                                }
+                                else
+                                {
+
+                                }
+                            </div>
+                        </div>
+
+                        <div class="col-sm-1">
+                            @if (Model.IsOwner == true && Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                            {
+                                <input type="submit" class="btn btn-blue" value="Yükle" asp-page-handler="LoadFiles" onclick="this.form.submitted=this.value;" />
+                            }
+                            else
+                            {
+
+                            }
+
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div id="fileResults" class="col-md-6">
+                            <output name="result"></output>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @if (Model.IsOwner != true)
+            {
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="form-group row">
+                            <div class="col-md-2">
+                                @Html.LabelFor(t => t.UserDescription, "Görev")
+                            </div>
+                            <div class="col-md-10">
+                                @if (Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                                {
+                                    @Html.TextAreaFor(m => m.UserDescription, new { @class = "form-control ckeditor", placeholder = "Görev" })
+                                }
+                                else
+                                {
+                                    @Html.TextAreaFor(m => m.UserDescription, new { @class = "form-control ckeditor", placeholder = "Görev", @disabled = "disabled" })
+                                }
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-6 pull-right">
+                                <div class="col-md-4">
+                                    @Html.Label("Dosya Ekleme")
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-6 pull-right">
+                                <div class="col-md-2">
+                                    @Html.Label("UserTaskFiles", "Dosya Seç", new { @class = "col-form-label" })
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="custom-file">
+                                        @if (Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                                        {
+                                            <input asp-for="UserTaskFiles" class="form-control custom-file-input" />
+                                        }
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    @if (Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                                    {
+                                        <input type="submit" class="btn btn-blue" value="Yükle" asp-page-handler="LoadFiles" onclick="this.form.submitted=this.value;" />
+                                    }
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div id="userFileResults" class="col-md-6 pull-right">
+                                <output name="userResult"></output>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-sm-12 text-right">
+                        @if (Model.Task.StateCode == (int)Core.Enums.Enumarations.TaskStates.Active)
+                        {
+                            if (Model.IsOwner == true)
+                            {
+                                <input type="submit" class="btn btn-primary btn-md" formaction="@Url.Action("Update","Task")" formmethod="post"
+                                       onclick="this.form.submitted=this.value;" value="Güncelle" />
+                                <input type="submit" class="btn btn-danger btn-md" formaction="@Url.Action("Assign","Task")" formmethod="post"
+                                       onclick="this.form.submitted=this.value;" value="Görev ata" />
+                            }
+                            else
+                            {
+                                <input type="submit" class="btn btn-primary btn-md"
+                                       onclick="this.form.submitted = this.value; window.location.href = '@Url.Action("Assignment", "Task",new { id=Model.Task.Id })'; return false;" value="Devret" />
+                                <input type="submit" class="btn btn-danger btn-md" formaction="@Url.Action("Completed","Task")" formmethod="post"
+                                       onclick="this.form.submitted=this.value;" value="Tamamlandı" />
+                            }
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    @if (ViewBag.Message != null)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                alert("@ViewBag.Message");
+            };
+        </script>
+    }
+</div>
+
+@*@(
+      await Html.PartialAsync("TaskAddUser", new Mvc.WebUI.ViewModel.TaskAddUserViewModel
+      {
+          Directorships=Model.Directorships,
+           Departments=Model.Departments,
+           Units=Model.Units,
+           AssignUsers=Model.AssignUsers
+      })
+
+    )*@
+
+@section scripts{
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            var modalId = ".modal";
+            function modalResize() {
+                //var new_margin = Math.ceil(($(window).height() - $(modalId).find('.modal-dialog').height()) / 2);
+                //$(modalId).find('.modal-dialog').css('margin-top', new_margin + 'px');
+            }
+            $(window).resize(function () {
+               // modalResize();
+            });
+            $(modalId).on('shown.bs.modal', function () {
+              //  modalResize();
+
+                  //$(this).on('click', function (e) {
+                //    $(this).modal('hide');
+                //});
+                //$(this).css({ 'display': 'table', 'width': '100%', 'height': '100%' });
+                //$(this).find('.modal-dialog').css({ 'padding': '0px', 'display': 'table-cell', 'vertical-align': 'middle' });
+                //$(this).find('.modal-content').css({ 'width': '50%', 'margin': '0px auto' });
+            });
+
+            $('.modal').on('hidden.bs.modal', function (e) {
+                //  alert("Modal hidden");
+                //$(this).find('.modal-content').removeAttr('style');
+                //$(this).find('.modal-dialog').removeAttr('style');
+            });
+
+            $('#btnNew').click(function () {
+
+                var url = $('#myModalBody').data('url');
+                $.get(url, function (data) {
+                    $("#myModalBody").html(data);
+                    $("#addUserModal").modal('show');
+                });
+            });
+
+
+
+            $("#drpCategories").chosen();
+            $("#drpAssignUsers").chosen();
+
+            $("#drpDirectorships").chosen();
+            $("#drpDepartments").chosen();
+            $("#drpUnits").chosen();
+
+            var drpDepartments = $('#drpDepartments');
+            var drpUnits = $('#drpUnits');
+            var drpAssignUsers = $('#drpAssignUsers');
+
+            loadTaskFiles('@Model.Task.Id');
+            loadUserTaskFiles('@Model.Task.Id');
+
+            $('#drpDirectorships').change(function (event, ui) {
+                var directorship_id = this.value;
+                drpDepartments.prop("disabled", false);
+                $('#drpDepartments').empty();
+                drpDepartments.append($('<option></option>').val("-1").html(''));
+
+                loadDepartments(directorship_id); // This is append values to option
+
+                drpUnits.prop("disabled", false);
+                $('#drpUnits').empty();
+                drpUnits.trigger("chosen:updated");
+
+                drpAssignUsers.prop("disabled", false);
+                $('#drpAssignUsers').empty();
+                drpAssignUsers.trigger("chosen:updated");
+
+            });
+
+            $('#drpDepartments').change(function (event, ui) {
+                var department_id = this.value;
+                drpUnits.prop("disabled", false);
+                $('#drpUnits').empty();
+
+                drpAssignUsers.prop("disabled", false);
+                $('#drpAssignUsers').empty();
+                drpAssignUsers.trigger("chosen:updated");
+
+                drpUnits.append($('<option></option>').val("-1").html(''));
+
+                loadUnits(department_id); // This is append values to option
+            });
+
+            $('#drpUnits').change(function (event, ui) {
+                var unit_id = this.value;
+                drpAssignUsers.prop("disabled", false);
+                $('#drpAssignUsers').empty();
+                drpAssignUsers.append($('<option></option>').val("-1").html(''));
+
+                loadUsers(unit_id); // This is append values to option
+            });
+
+            function loadDepartments(directorship_id) {
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    url: "@Url.Action("GetDepartments", "Departman")",
+                    data: { "id": directorship_id },
+                    success: function (data) {
+                        if (data != null && data.length !=0) {
+                            $.each(data, function (i, option) {
+                                drpDepartments.append($("<option>").val(option.value).text(option.text));
+                                //drpDepartments.append($('<option></option>').val(option.value).html(option.text));
+                            });
+                        }
+
+                        drpDepartments.trigger("chosen:updated");
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve states.');
+                    }
+             });
+            }
+
+            function loadUnits(department_id) {
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    url: "@Url.Action("GetUnits", "Unit")",
+                    data: { "id": department_id },
+                    success: function (data) {
+                        $.each(data, function (i, option) {
+                            drpUnits.append($("<option>").val(option.value).text(option.text));
+                        });
+                        drpUnits.trigger("chosen:updated");
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve states.');
+                    }
+             });
+            }
+
+            function loadUsers(unit_id) {
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    url: "@Url.Action("GetUsers", "User")",
+                    data: { "id": unit_id },
+                    success: function (data) {
+                        $.each(data, function (i, option) {
+                            drpAssignUsers.append($("<option>").val(option.value).text(option.text));
+                        });
+                        drpAssignUsers.trigger("chosen:updated");
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve states.');
+                    }
+             });
+            }
+
+            //table = $("#grd_taskusers").dataTable();
+            $("#refresh").on("click", function () {
+                //table.ajax.reload(null, false);
+                //table.fnDestroy();
+                //table = $("#grd_taskusers").dataTable();
+
+                 loadTaskUsers('@Model.Task.Id');
+            });
+
+            loadTaskUsers('@Model.Task.Id');
+
+        });
+
+         function form_onsubmit(oFormElement, btnValue) {
+            if (btnValue=="Yükle") {
+                AJAXSubmit(oFormElement);
+                return false;
+            }
+            else if (btnValue =="Refresh") {
+                return false;
+            }
+
+            return true;
+        }
+
+        function DeleteFile(id,taskid) {
+            var isConfirm = window.confirm('Silmek istediğinize eminmisiniz?');
+
+            if (isConfirm) {
+                $.ajax({
+                type: 'POST',
+                url: '@Url.Action("Delete", "TaskFile")',
+                data: { "id": id },
+                success: function (data) {
+                    //alert("Görev başarıyla silindi");
+                    if (isOwner) {
+                        loadTaskFiles(taskid);
+                    }
+                    else {
+                        loadUserTaskFiles(taskid);
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert('Failed to retrieve states.');
+                    }
+                });
+             }
+         }
+
+        function UploadFile(id) {
+             window.location.href = '@Url.Action("DownloadFile", "Download")' + "/" + id;
+        }
+
+        function LoadFiles() {
+            $.ajax({
+                cache: false,
+                type: 'POST',
+                url: '@Url.Action("LoadFiles", "Task")',
+                dataType: 'json',
+                data: $("#dosya_gonder_form").serialize(),
+                contentType: 'application/json; charset=utf-8',
+                success: function (data) {
+                    $.each(data, function (i, option) {
+                        //drpAssignUsers.append($("<option>").val(option.value).text(option.text));
+                    });
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert('Failed to retrieve states.');
+                }
+            });
+        }
+
+        function loadTaskFiles(taskid) {
+            $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("GetOwnerTaskFilesByTaskId", "TaskFile")",
+                    data: { "id": taskid },
+                    success: function (data) {
+
+                        var results = "";
+                        if (data != null && data.length != 0)
+                            results = CreateTaskFileTable(data);
+
+                        if (results != null && results != "")
+                            document.getElementById("fileResults").innerHTML = results;
+                        else
+                            document.getElementById("fileResults").innerHTML = "<span></span>";
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve states.');
+                    }
+             });
+        }
+
+        function loadUserTaskFiles(taskid) {
+            $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("GetUserTaskFilesByTaskId", "TaskFile")",
+                    data: { "id": taskid },
+                    success: function (data) {
+                        var results = "";
+                        if (data != null && data.length != 0)
+                            results = CreateUserTaskFileTable(data);
+
+                        if (results != null && results != "") {
+                            if (document.getElementById("userFileResults") != null && document.getElementById("userFileResults") != undefined)
+                                document.getElementById("userFileResults").innerHTML = results;
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve states.');
+                    }
+             });
+        }
+
+        function CreateTaskFileTable(data) {
+
+            var tableHeader = "<div class='form-group'>" +
+                "<div class='row'>" +
+                "<table class='table table-hover'>" +
+                "<thead>" +
+                "<tr class='row'>" +
+                "<th class='col-md-1' scope='col'>#</th>" +
+                "<th class='col-md-7' scope='col'>Dosya Adı</th>" +
+                "<th class='col-md-4' scope='col'></th>" +
+                " </tr>" +
+                "</thead>" +
+                "<tbody>";
+
+            var tableContent = "";
+
+            for (var i = 0; i < data.length; i++) {
+                tableContent += "<tr class='row'>" +
+                    "<td class='col-md-1' scope='row'>" + (i + 1) + "</td>" +
+                    "<td class='col-md-7'>" + data[i].fileName + "</td>";
+
+                tableContent += "<td class='col-md-4 text-right'>";
+
+                if (isActive) {
+                    if (isOwner) {
+                        //tableContent += "<div class='btn-toolbar'>";
+                        tableContent += "<button type='button' title='Sil' class='btn btn-sm btn-danger btn-space' onclick=\"DeleteFile('" + data[i].id + "','" + data[i].taskId + "')\">" +
+                            "<i class='entypo-cancel'></i>" +
+                            "</button>";
+
+                        tableContent += "<button type='button' title='İndir' class='btn btn-sm btn-success btn-space' onclick=\"UploadFile('" + data[i].id + "')\">" +
+                            "<i class='entypo-down'></i>" +
+                            "</button>";
+                        //tableContent += "</div>";
+                    }
+                    else {
+                        tableContent += "<button type='button' title='İndir' class='btn btn-sm btn-success' onclick=\"UploadFile('" + data[i].id + "','" + data[i].taskId + "')\">" +
+                            "<i class='entypo-down'></i>" +
+                            "</button>";
+                    }
+                }
+
+                tableContent+=    "</td>" +
+                    "</tr>";
+            }
+
+            var tableFooter = "</tbody>" +
+                " </table> " +
+                "</div> " +
+                "</div>";
+
+            return tableHeader + tableContent + tableFooter;
+        }
+
+        function CreateUserTaskFileTable(data) {
+
+            var tableHeader = "<div class='form-group'>" +
+                "<div class='row'>" +
+                "<table class='table table-hover'>" +
+                "<thead>" +
+                "<tr class='row'>" +
+                "<th class='col-md-1' scope='col'>#</th>" +
+                "<th class='col-md-7' scope='col'>Dosya Adı</th>" +
+                "<th class='col-md-4' scope='col'></th>" +
+                " </tr>" +
+                "</thead>" +
+                "<tbody>";
+
+            var tableContent = "";
+
+            for (var i = 0; i < data.length; i++) {
+                tableContent += "<tr class='row'>" +
+                    "<td class='col-md-1' scope='row'>" + (i + 1) + "</td>" +
+                    "<td class='col-md-7'>" + data[i].fileName + "</td>";
+
+                tableContent += "<td class='col-md-4 text-right'>";
+
+                if (isActive) {
+                    tableContent += "<button type='button' title='Sil' class='btn btn-sm btn-danger btn-space' onclick=\"DeleteFile('" + data[i].id + "','" + data[i].taskId + "')\">" +
+                        "<i class='entypo-cancel'></i>" +
+                        "</button>";
+
+                    tableContent += "<button type='button' title='İndir' class='btn btn-sm btn-success btn-space' onclick=\"UploadFile('" + data[i].id + "')\">" +
+                        "<i class='entypo-down'></i>" +
+                        "</button>";
+                }
+
+                tableContent += "</td>" +
+                    "</tr>";
+            }
+
+            var tableFooter = "</tbody>" +
+                " </table> " +
+                "</div> " +
+                "</div>";
+
+            return tableHeader + tableContent + tableFooter;
+        }
+
+         async function AJAXSubmit(oFormElement) {
+          //  var resultElement = oFormElement.elements.namedItem("result");
+            const formData = new FormData(oFormElement);
+
+             //const formData = new FormData(@Model.TaskFiles);
+
+            try {
+                await fetch('@Url.Action("LoadFiles","Task")', {
+                    method: 'POST',
+                    body: formData
+                })
+                    .then(response => response.json())
+                    //.then(res => res.text())          // convert to plain text
+                    //.then(text => console.log(text))  // then log it out
+                    .then(data => {
+                        if (data.success)
+                            console.log('Success:', data);
+                        else
+                            alert(data.message);
+
+                        if (data.success) {
+                            if (isOwner)
+                                loadTaskFiles('@Model.Task.Id');
+                            else
+                                loadUserTaskFiles('@Model.Task.Id');
+                        }
+
+                        $("#TaskFiles").val(null);
+                        $("#UserTaskFiles").val(null);
+                    })
+                    .catch((error) => {
+                       console.error('Error:', error);
+                    });
+
+
+                //if (response.ok) {
+                //    //window.location.href = '/';
+                //}
+
+                //resultElement.value = 'Result: ' + response.status + ' ' + response.statusText;
+
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        $("#btnKaydetModal").click(function () {
+
+            var assignUserId = $('#drpAssignUsers').val();
+            var startDate = $('#StartDate').val();
+            var endDate = $('#EndDate').val();
+
+            if (assignUserId != null && assignUserId !="") {
+                  var actiondata = {
+                   taskId:'@Model.Task.Id',
+                      assignUserId: assignUserId,
+                      startDate: startDate,
+                      endDate: endDate
+                  };
+
+             $.ajax({
+                 type: 'POST',
+                 url: '@Url.Action("TaskAddUser", "AssignTask")',
+                 data: actiondata,
+                 success: function (data) {
+                     if (data.success) {
+                         $('#addUserModal').modal('hide');
+                         loadTaskUsers('@Model.Task.Id');
+                     }
+                     else {
+                         alert(data.message);
+                     }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert('Failed to retrieve states.');
+                    }
+                });
+             }
+             else {
+                 alert("Görev sorumlusu seçilmedi.");
+             }
+        });
+
+        function loadTaskUsers(taskid) {
+
+            $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("GetUsersForAssignedTask", "AssignTask")",
+                    data: { "taskid": taskid },
+                    success: function (data) {
+
+                        var results = CreateTaskUserBody(data);
+
+                        if (results != null && results != "")
+                            document.getElementById("taskusers").innerHTML = results;
+
+                        CreateGrid();
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve states.');
+                    }
+            });
+        }
+
+        function CreateTaskUserBody(data) {
+
+            var tableHeader = "<table id='grd_taskusers' class='table table-striped table-bordered dt responsive nowrap' width='100%' cellspacing='0'>"+
+                " <thead>" +
+                " <tr class='replace-inputs'>" +
+                " <th></th>" +
+                " <th></th>" +
+                " <th></th>" +
+                " <th></th>" +
+                " <th></th>" +
+                " <th></th>" +
+                " <th></th>" +
+                " </tr>" +
+                "<tr>" +
+                "<th>Öncelik</th>" +
+                " <th>Ad Soyad</th>" +
+                " <th>Başlangıç Tarihi</th>" +
+                " <th>Bitiş Tarihi</th>" +
+                "<th>Durum</th>" +
+                "<th>Atama Tarihi</th>" +
+                " <th></th>" +
+                "</tr>" +
+                "</thead>" +
+                "<tbody>";
+
+            var tableContent = "";
+
+            if (data != null && data.length != 0) {
+                for (var i = 0; i < data.length; i++) {
+
+                    var deleteButton = "";
+                    if (isActive)
+                     deleteButton = "<button type='button' class='btn btn-white tooltip-default' title='Sil' onclick=\"DeleteAssignTask('" + data[i].id + "','" + data[i].taskId + "')\"><i class=\"entypo-trash\"></i></button>";
+
+                    tableContent += " <tr>" +
+                        "<td>" + (i + 1) + "</td>" +
+                        "<td>" + data[i].fullName + "</td>" +
+                        "<td>" + data[i].startDateStr + "</td>" +
+                        "<td>" + data[i].endDateStr + "</td>" +
+                        "<td>" + data[i].status + "</td>" +
+                        "<td>" + data[i].assignDateStr + "</td>" +
+                        "<td>" + deleteButton+"</td>" +
+                        "</tr>";
+                }
+            }
+            else {
+                tableContent += " <tr>" +
+                    "<td></td>" +
+                    "<td></td>" +
+                    "<td></td>" +
+                    "<td></td>" +
+                    "<td></td>" +
+                    "<td></td>" +
+                    "<td></td>" +
+                    "</tr>";
+            }
+
+            var tableFooter = "</tbody>"+
+                " <tfoot>" +
+                " <tr>" +
+                "<th>Öncelik</th>" +
+                "<th>Ad Soyad</th>" +
+                "<th>Başlangıç Tarihi</th>" +
+                "<th>Bitiş Tarihi</th>" +
+                "<th>Durum</th>" +
+                "<th>Atama Tarihi</th>" +
+                "<th></th>" +
+                "</tr>" +
+                "</tfoot>" +
+                "</table>";
+
+            return tableHeader + tableContent + tableFooter;
+        }
+
+         function DeleteAssignTask(aid,taskid) {
+            var isConfirm = window.confirm('Silmek istediğinize eminmisiniz?');
+
+             if (isConfirm) {
+                   var aTask = {
+                       taskId:taskid,
+                       id: aid
+                  };
+
+                $.ajax({
+                    type: 'GET',
+                    url: '@Url.Action("TaskDelete", "AssignTask")',
+                    data: aTask,
+                    success: function (data) {
+                        if (data != null) {
+                            loadTaskUsers(taskid);
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve states.');
+                    }
+                });
+             }
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        var jsLang = {
+            First: 'İlk Sayfa',
+            Last: 'Son Sayfa',
+            AllRow: 'Hepsi',
+            Next: 'Sonraki',
+            Previous: 'Önceki',
+            EmptyTable: 'Gösterilecek bir data yok',
+            SortDescending: ' - Click / ' + 'Azalan sıralamaya dönün',
+            SordAscending: ' - Click / ' + 'Artan sıralamaya dönün',
+            sInfo: 'Toplam _TOTAL_ kayıt mevcut' + ' (_START_ - _END_)',
+            sInfoEmpty: 'Gösterilecek bir data yok',
+            sInfoFiltered: ' -  _MAX_ kayıt filtrelendi',
+            sLoadingRecords: 'Lütfen bekleyin',
+            sProcessing: 'İşlem yapılıyor',
+            sZeroRecords: 'Gösterilecek bir data yok',
+            sLengthMenu: 'Sayfa başına _MENU_ kayıt göster',
+            sSearch: 'Arama',
+        };
+
+        var aoColumnDefs_taskusers = [{ 'aTargets': [0], 'sWidth': '5%', 'bVisible': 'true' },
+        { 'aTargets': [1], 'sWidth': '20%', 'bVisible': 'true', 'bSearchable': true },
+        { 'aTargets': [2], 'sWidth': '20%', 'bVisible': 'true', 'bSearchable': false },
+        { 'aTargets': [3], 'sWidth': '15%', 'bVisible': 'true', 'bSearchable': false },
+        { 'aTargets': [4], 'sWidth': '15%', 'bVisible': 'true', 'bSearchable': false },
+        { 'aTargets': [5], 'sWidth': '15%', 'bVisible': 'true', 'bSearchable': false },
+        { 'aTargets': [6], 'sClass': 'gColCenter', 'sWidth': '10%', 'bVisible': 'true' }];
+
+        function CreateGrid() {
+            var table = $("#grd_taskusers").dataTable({
+                "sPaginationType": "bootstrap",
+                "aLengthMenu": [[5], [5]],
+                "bStateSave": true,
+                "filter": false, // this is for disable filter (search box)
+                "orderMulti": false, // for disable multiple column at once
+                "searching": false,
+                "processing": true, // for show progress bar
+                "serverSide": true, // for process server side
+                "aoColumnDefs": aoColumnDefs_taskusers,
+                "oLanguage": {
+                    "oPaginate": {
+                        "sFirst": jsLang.First,
+                        "sLast": jsLang.Last,
+                    },
+                    "oAria": {
+                        "sSortDescending": jsLang.SortDescending,
+                        "sSortAscending": jsLang.SordAscending
+                    },
+                    "sLengthMenu": jsLang.sLengthMenu, //"Sayfa başına _MENU_ kayıt göster",
+                    "sZeroRecords": jsLang.sZeroRecords, //"Arama kriterlerinize uygun bir sonuç bulunamadı!",
+                    "sEmptyTable": jsLang.EmptyTable,
+                    "sInfo": jsLang.sInfo, //"Toplam _TOTAL_ kayıt mevcut. Sayfa: _START_/_END_",
+                    "sInfoEmpty": jsLang.sInfoEmty, //"Toplam 0 kayıt mevcut",
+                    "sSearch": jsLang.sSearch, //"Hızlı Arama:",
+                    "sInfoFiltered": jsLang.sInfoFiltered, //"(toplam _MAX_ kayıt arasından filtrelendi)"
+                    "sLoadingRecords": jsLang.sLoadingRecords,
+                    "sProcessing": jsLang.sProcessing
+                }
+            });
+
+            table.columnFilter({
+                "sPlaceHolder": "head:after"
+            });
+        }
+    </script>
+
+    <script src="~/js/jquery.dataTables.min.js"></script>
+    <script src="~/js/datatables/TableTools.min.js"></script>
+    <script src="~/js/dataTables.bootstrap.js"></script>
+    <script src="~/js/datatables/jquery.dataTables.columnFilter.js"></script>
+    <script src="~/js/datatables/lodash.min.js"></script>
+    <script src="~/js/datatables/responsive/js/datatables.responsive.js"></script>
+}
+

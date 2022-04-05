@@ -1,0 +1,153 @@
+﻿
+@model Mvc.WebUI.ViewModel.PostOutgoingViewModel
+@using Mvc.WebUI.HtmlHelpers
+
+@{
+    ViewData["Title"] = "Giden E-posta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var classLi = "";
+}
+
+<script type="text/javascript" src="~/js/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="~/js/ckeditor/config.js"></script>
+<script type="text/javascript" src="~/js/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript" src="~/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="~/js/bootstrap-timepicker.min.js"></script>
+
+<link href="~/css/datepicker.css" rel="stylesheet" />
+<link href="~/js/ckeditor/skins/moono/editor.css" rel="stylesheet" />
+<script src="~/js/ckeditor/styles.js"></script>
+<script src="~/js/ckeditor/lang/tr.js"></script>
+<script src="~/js/ckeditor/build-config.js"></script>
+
+<style type="text/css">
+    .table-row {
+        cursor: pointer;
+    }
+
+    .active {
+        background: #B68A33;
+        color: white;
+    }
+</style>
+
+@await Component.InvokeAsync("PageTitle", Model.PageTitleOptions)
+
+<div id="incomingForm">
+    <div class="form-body">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-4">
+
+                    @{
+                        if (Model.OutgoingEmails != null && Model.OutgoingEmails.Count != 0)
+                        {
+                            <div style="height:400px;">
+                                <ul class="list-group">
+                                    @foreach (var email in Model.OutgoingEmails)
+                                    {
+                                        if (email.Id == Model.SelectedEmail.Id)
+                                        {
+                                            classLi = "list-group-item active";
+                                        }
+                                        else
+                                        {
+                                            classLi = "list-group-item";
+                                        }
+
+
+                                        <li class="@classLi table-row" id="@email.Id">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <b>  @email.Subject</b>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    @email.CreatedOn.ToString("dd.MM.yyyy")
+
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-10">
+                                                    @if (!string.IsNullOrEmpty(email.Body))
+                                                    {
+                                                        if (email.Body.Length > 100)
+                                                        {
+                                                            @*@email.Body.Substring(1, 100)*@
+                                                        }
+                                                        else
+                                                        {
+                                                            @*@email.Body*@
+                                                        }
+                                                    }
+                                                    &nbsp;
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-10">
+                                                    Gönderen : Gökhan Menteşe
+                                                </div>
+                                                <div class="col-md-2">
+                                                    @*@Html.LabelForModel("Oku", new { onclick = "EmailOnClick('" + email.Id.ToString() + "')" })*@
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                    }
+                                </ul>
+                            </div>
+                            <div class="row" style="text-align:right !important;">
+                                @Html.Pager(Model.PagingInfo, "Post", "Outgoing")
+                            </div>
+                        }
+                        else
+                        {
+                            <b>
+                                <span>Görüntülenecek veri bulunamadı.</span>
+                            </b>
+                        }
+                    }
+
+                </div>
+                <div class="col-md-8">
+                    @*<textarea id="SelectedEmail_Body" class="form-control ckeditor"></textarea>*@
+
+                    @Html.TextAreaFor(m => m.SelectedEmail.Body, new { @class = "form-control ckeditor", placeholder = "Email", @disabled = "disabled" })
+                </div>
+            </div>
+        </div>
+        <!--/row-->
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function ($) {
+        $('.list-group').on('click', 'li', function () {
+            $('.list-group li.active').removeClass('active');
+            $(this).addClass('active');
+
+            EmailOnClick(this.id);
+        });
+    });
+
+     function EmailOnClick(id) {
+
+        $.ajax({
+            cache: false,
+            type: "POST",
+            url: "@Url.Action("EmailGetById", "Post")",
+            data: { "id": id },
+                    success: function (data) {
+                        if (data != null && data.length !=0) {
+
+                            $("#SelectedEmail_Body").val(data["body"]);
+                        }
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                console.log('Failed to retrieve states.');
+            }
+         });
+    }
+
+</script>
+

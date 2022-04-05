@@ -1,0 +1,24 @@
+﻿@using System.Security.Principal
+@using Microsoft.AspNetCore.Http
+
+
+
+@if (User.Identity.IsAuthenticated)
+{
+    <li>
+        <span>Merhaba @User.Identity.Name</span>
+    </li>
+    <li>
+        @*<a asp-area="AzureAD" asp-controller="Account" asp-action="SignOut">
+                Çıkış <i class="entypo-logout right"></i>
+            </a>*@
+    </li>
+}
+else
+{
+    <li>
+        @*<a asp-area="AzureAD" asp-controller="Account" asp-action="SignIn">
+                Giriş <i class="entypo-login right"></i>
+            </a>*@
+    </li>
+}

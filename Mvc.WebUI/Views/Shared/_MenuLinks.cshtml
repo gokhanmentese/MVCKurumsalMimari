@@ -1,0 +1,115 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+
+<div class="row" style="background-color: #B68A33 !important; height:57px;">
+    <!-- main menu -->
+    @if (User.Identity.IsAuthenticated)
+    {
+        <ul class="navbar-nav pull-right">
+            <li>
+                <a href="~/Task/Index">
+                    <i class="entypo-gauge"></i>
+                    <span>Görevler</span>
+                </a>
+                <ul>
+                    <li>
+                        @*<a href="~/Task/Create">
+                                <span>Yeni Görev</span>
+                            </a>*@
+                        @Html.ActionLink("Yeni Görev", "Create", "Task")
+                    </li>
+                    <li>
+                        <a href="~/Task/Waiting">
+                            <span>Bekleyen Görev</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="~/Task/Closed">
+                            <span>Tamamlanan Görev</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="~/Task/AssignList">
+                            <span>Görev Devret</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="opened active">
+                <a href="#">
+                    <i class="entypo-layout"></i>
+                    <span>Posta Kutusu</span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="~/Post/Create">
+                            <span>Yeni Posta</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="~/Post/Incoming">
+                            <span>Gelen Posta</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="~/Post/Outgoing">
+                            <span>Giden Posta</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            @if (User.IsInRole("Admin"))
+            {
+
+                <li>
+                    <a href="~/User/ShowUsers">
+                        <i class="entypo-newspaper"></i>
+                        <span>Admin Panel</span>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="~/User/ShowUsers">
+                                <span>Kullanıcılar</span>
+                            </a>
+                        </li>
+                        @*<li>
+                                <a href="~/Message/Incoming">
+                                    <span>Gelen Mesaj</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="~/Message/Sent">
+                                    <span>Giden Mesaj</span>
+                                </a>
+                            </li>*@
+                    </ul>
+                </li>
+            }
+            <li>
+                <a href="~/User/Detail">
+                    <i class="entypo-doc-text"></i>
+                    <span>Kişisel</span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="~/User/Detail">
+                            <span>Profil</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="~/Auth/LogOut">
+                            Çıkış <i class="entypo-logout right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    }
+</div>
+
